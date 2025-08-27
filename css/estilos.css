@@ -1,0 +1,46 @@
+
+body {
+  background-color: #efdcf5; /* beige */
+  color: #333;
+}
+
+.formulario-fondo {
+  background-color: #f7f0d9; /* rosa pastel */
+}
+
+.titulo2 {
+  color: #B5EAD7; /* verde menta */
+  font-weight: bolder ;
+  text-align: center;
+
+}
+
+.etiqueta {
+  font-weight: 600;
+  color: #7a456f;
+}
+
+.btn-outline-success {
+  background-color: #A7C7E7; /* celeste pastel */
+  color: white;
+  border: none;
+}
+
+.btn-outline-success:hover {
+  background-color: #B5EAD7;
+}
+
+.btn-outline-warning {
+  background-color: #78ecc2; /* verde menta */
+  color: white;
+  border: none;
+}
+
+.btn-outline-warning:hover {
+  background-color: #A7C7E7;
+}
+
+.borde {
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
