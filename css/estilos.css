@@ -15,6 +15,13 @@ body {
 
 }
 
+.titulo3 {
+  color: #7a456f; /* morado */
+  font-weight: bolder ;
+  text-align: center;
+
+}
+
 .etiqueta {
   font-weight: 600;
   color: #7a456f;
@@ -44,3 +51,4 @@ body {
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
 }
+
