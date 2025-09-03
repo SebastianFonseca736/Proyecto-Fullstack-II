@@ -1,0 +1,35 @@
+{
+  "productos": [
+    {
+      "nombre": "Velas de soya | Cozy Romance",
+      "precio": 14900,
+      "descripcion": "Cozy Romance es una velita inspirada en las lectoras que aman el romance con todos sus matices, hecha a base de Mango y Maracuyá, tan dulce como el amor. Todas nuestras velas son vegetales, hechas a base de soya, con un punto de fusión de no más de 45°. Aromas ecológicos."
+    },
+    {
+      "nombre": "Velas de soya | Cozy Fantasy",
+      "precio_min": 10900,
+      "precio_max": 14900,
+      "descripcion": "Cozy Fantasy es una velita inspirada en las lectoras que aman la fantasía hecha a base de aromas cítricos: Limón y verbena. Todas nuestras velas son vegetales, hechas a base de soya, con un punto de fusión de no más de 45°. Aromas ecológicos."
+    },
+    {
+      "nombre": "Marcapáginas magnético | Salchicha lector",
+      "precio": 1900,
+      "descripcion": "¡Marcapáginas magnéticos que te acompañarán en tus mejores lecturas! Este tipo de marcador contiene un imán que funciona como un clip para marcar la página en la que vas. No daña la hoja ♥"
+    },
+    {
+      "nombre": "Marcapáginas magnético | Gatito negro",
+      "precio": 1900,
+      "descripcion": "¡Marcapáginas magnéticos que te acompañarán en tus mejores lecturas! Este tipo de marcador contiene un imán que funciona como un clip para marcar la página en la que vas. No daña la hoja ♥ ¡Marcapáginas con efecto glitter!"
+    },
+    {
+      "nombre": "Funda | Fantasmita",
+      "precio": 13900,
+      "descripcion": "Sabemos lo importante que es cuidar lo que amamos… ¡Como los libros! ♥ Nuestras fundas están diseñadas para transportar libros, tablets y dispositivos de lectura electrónicos (e-readers). La tela exterior es impermeable, son acolchadas para mayor protección y el diseño exclusivo de Petilú. Todo es hecho a mano con amor."
+    },
+    {
+      "nombre": "Funda | Cowboy Romance",
+      "precio": 13900,
+      "descripcion": "Sabemos lo importante que es cuidar lo que amamos… ¡Como los libros! ♥ Nuestras fundas están diseñadas para transportar libros, tablets y dispositivos de lectura electrónicos (e-readers). La tela exterior es impermeable, son acolchadas para mayor protección y el diseño exclusivo de Petilú. Todo es hecho a mano con amor."
+    }
+  ]
+}
