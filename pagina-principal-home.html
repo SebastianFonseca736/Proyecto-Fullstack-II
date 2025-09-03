@@ -8,11 +8,135 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
    <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body class="bg-light">
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-sm mb-4" style="background-color:#7a456f;">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white fw-bold" href="#">Mi Tienda</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link text-white" href="#">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">Productos</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">Registro</a></li>
+            <li class="nav-item"><a class="nav-link text-white" href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-  <div class="d-flex justify-content-center align-items-center vh-100">
-    <img src="img/Construccion.png" alt="logo" class="img-fluid" style="max-width: 300px;">
+    <!-- carrusel -->
+    <div id="carouselInicio" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner rounded shadow">
 
+    <!-- 1 -->
+    <div class="carousel-item active">
+      <img src="img/banner1.png" class="d-block w-100" alt="Banner 1">
+    </div>
+    
+    <!-- 2 -->
+    <div class="carousel-item">
+      <img src="img/banner2.png" class="d-block w-100" alt="Banner 2">
+    </div>
+    
+    <!-- 3 -->
+    <div class="carousel-item">
+      <img src="img/banner3.png" class="d-block w-100" alt="Banner 3">
+    </div>
+  
   </div>
-</body>
+  
+  <!-- Controles -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselInicio" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselInicio" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+    <!-- Productos -->
+<h2 class="titulo3 mb-4">Productos</h2>
+<div class="row">
+
+<div class="row">
+  <!-- 1 -->
+  <div class="col-md-4 mb-4">
+    <div class="card shadow border-0">
+      <img src="img/funda1.jpg" class="card-img-top" alt="Funda 1">
+      <div class="card-body text-center">
+        <h5 class="card-title titulo3">Funda 1</h5>
+        <p class="card-text">Descripción breve del producto.</p>
+        <a href="#" class="btn btn-outline-success">Ver más</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 -->
+  <div class="col-md-4 mb-4">
+    <div class="card shadow border-0">
+      <img src="img/funda2.jpg" class="card-img-top" alt="Funda 2">
+      <div class="card-body text-center">
+        <h5 class="card-title titulo3">Funda 2</h5>
+        <p class="card-text">Descripción breve del producto.</p>
+        <a href="#" class="btn btn-outline-success">Ver más</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="col-md-4 mb-4">
+    <div class="card shadow border-0">
+      <img src="img/marcapagina1.jpg" class="card-img-top" alt="Marcapáginas 1">
+      <div class="card-body text-center">
+        <h5 class="card-title titulo3">Marcapáginas 1</h5>
+        <p class="card-text">Descripción breve del producto.</p>
+        <a href="#" class="btn btn-outline-success">Ver más</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 -->
+  <div class="col-md-4 mb-4">
+    <div class="card shadow border-0">
+      <img src="img/marcapagina2.jpg" class="card-img-top" alt="Marcapáginas 2">
+      <div class="card-body text-center">
+        <h5 class="card-title titulo3">Marcapáginas 2</h5>
+        <p class="card-text">Descripción breve del producto.</p>
+        <a href="#" class="btn btn-outline-success">Ver más</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <div class="col-md-4 mb-4">
+    <div class="card shadow border-0">
+      <img src="img/veladesoya1.jpg" class="card-img-top" alt="Vela de soya 1">
+      <div class="card-body text-center">
+        <h5 class="card-title titulo3">Vela de soya 1</h5>
+        <p class="card-text">Descripción breve del producto.</p>
+        <a href="#" class="btn btn-outline-success">Ver más</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6 -->
+  <div class="col-md-4 mb-4">
+    <div class="card shadow border-0">
+      <img src="img/veladesoya2.jpg" class="card-img-top" alt="Vela de soya 2">
+      <div class="card-body text-center">
+        <h5 class="card-title titulo3">Vela de soya 2</h5>
+        <p class="card-text">Descripción breve del producto.</p>
+        <a href="#" class="btn btn-outline-success">Ver más</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
 </html>

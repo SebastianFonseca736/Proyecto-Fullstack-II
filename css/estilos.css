@@ -1,54 +1,47 @@
-
 body {
-  background-color: #efdcf5; /* beige */
+  background-color: #bca88e; /* Nude */
   color: #333;
 }
 
 .formulario-fondo {
-  background-color: #f7f0d9; /* rosa pastel */
+  background-color: #e3e8e9; /* Misty Blue */
 }
 
 .titulo2 {
-  color: #B5EAD7; /* verde menta */
-  font-weight: bolder ;
+  color: #9da993; /* Sage Green */
+  font-weight: bolder;
   text-align: center;
-
 }
 
 .titulo3 {
-  color: #7a456f; /* morado */
-  font-weight: bolder ;
+  color: #e4b4b4; /* Rosewater */
+  font-weight: bolder;
   text-align: center;
-
 }
 
 .etiqueta {
   font-weight: 600;
-  color: #7a456f;
+  color: #9da993; /* Sage Green */
 }
 
 .btn-outline-success {
-  background-color: #A7C7E7; /* celeste pastel */
+  background-color: #e4b4b4; /* Rosewater */
   color: white;
   border: none;
 }
 
 .btn-outline-success:hover {
-  background-color: #B5EAD7;
+  background-color: #9da993; /* Sage Green */
 }
 
 .btn-outline-warning {
-  background-color: #78ecc2; /* verde menta */
+  background-color: #9da993; /* Sage Green */
   color: white;
   border: none;
 }
 
 .btn-outline-warning:hover {
-  background-color: #A7C7E7;
+  background-color: #bca88e; /* Nude */
 }
 
-.borde {
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: black;
-}
 
