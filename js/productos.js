@@ -1,34 +1,27 @@
-let url = 'http://localhost:3000/productos';
+let url='http://localhost:3000/productos';
+    fetch(url)                                //método que se enlaza a url de json
+        .then(response =>response.json())
+        .then(data => mostrarData(data))        //data es el parámetro que recibe json
+        .catch(error => console.log(error))
 
-fetch(url) // método que se enlaza a url de json
-  .then(response => response.json())
-  .then(data => mostrarData(data)) // data recibe el objeto completo }
-  .catch(error => console.log(error))
+        const mostrarData=(data)=>{
+            console.log(data)
+            let tbody=""                        //string que se enlazara con html
+            for (let i=0; i<data.length; i++)   //ciclo que recorre la lista de obj
+               {    
+                    /*creamos filas con la información de los objetos de la lista*/
+                    tbody+=`<tr>                      
+                            <td>${data[i].nombre}</td>       
+                            <td>
+                                <a href="detalle-productos.html?nombre=${encodeURIComponent(data[i].nombre)}&foto=${encodeURIComponent(data[i].foto)}&precio=${encodeURIComponent(data[i].precio)}&descripcion=${encodeURIComponent(data[i].descripcion)}" target="_blank">
+                                    <img src="${data[i].foto}" class="foto">
+                                </a>
+                            </td>
+                            <td>${data[i].precio}</td>
+                            <td>${data[i].descripcion}</td>  
+                        </tr>`
+                }
+                document.getElementById('producto').innerHTML=tbody
+            }
 
-const mostrarData = (data) => {
-  console.log(data)
-  let tbody = "" // string que se enlazará con html
 
-  for (let i = 0; i < data.productos.length; i++) {
-    let producto = data.productos[i]
-
-    // Manejo de precio único o rango
-    let precio = producto.precio 
-                ? producto.precio 
-                : `${producto.precio_min} - ${producto.precio_max}`
-
-    tbody += `
-      <tr>
-        <td>${producto.nombre}</td>
-        <td>
-          <a href="detalleProducto.html?nombre=${encodeURIComponent(producto.nombre)}&foto=${encodeURIComponent(foto)}&precio=${encodeURIComponent(precio)}&descripcion=${encodeURIComponent(producto.descripcion)}" target="_blank">
-            <img src="${foto}" class="foto">
-          </a>
-        </td>
-        <td>${precio}</td>
-        <td>${producto.descripcion}</td>
-      </tr>`
-  }
-
-  document.getElementById('producto').innerHTML = tbody
-}
